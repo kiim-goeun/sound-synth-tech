@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 90.0, 1666.0, 876.0 ],
+		"rect" : [ 34.0, 87.0, 1666.0, 876.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1515.0, 847.0, 99.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : ";\rmodulator 1000.;\rcarrier 750.;\rmod.depth 300.;\r"
 				}
 
@@ -93,7 +92,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1283.0, 890.0, 126.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "ƒm : ƒc mod 1.!=o COMPLEX spectra!"
 				}
 
@@ -107,7 +105,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1413.0, 847.0, 95.0, 76.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmodulator 750.;\rcarrier 1000.;\rmod.depth 300.;\r"
 				}
 
@@ -208,8 +205,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1269.0, 778.0, 140.0, 60.0 ],
-					"presentation_linecount" : 7,
+					"patching_rect" : [ 1269.0, 778.0, 141.0, 60.0 ],
 					"text" : "ƒm is in the audio range\n(even more sidebands!)\nƒm as integer ratio of ƒc HARMONICITY!"
 				}
 
@@ -223,7 +219,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1413.0, 762.0, 95.0, 76.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmodulator 500.;\rcarrier 1000.;\rmod.depth 300.;\r"
 				}
 
@@ -236,7 +231,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1068.0, 956.0, 97.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "fast ƒm \n(sidebands)\nwider mod depth"
 				}
 
@@ -250,7 +244,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1169.0, 931.0, 95.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : ";\rmodulator 25.;\rcarrier 1000.;\rmod.depth 300.;\r"
 				}
 
@@ -262,8 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1070.0, 876.0, 95.0, 47.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 1070.0, 876.0, 97.0, 47.0 ],
 					"text" : "slow ƒm (LFO)\nwide mod depth VIBRATO!"
 				}
 
@@ -277,7 +269,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1169.0, 847.0, 89.0, 76.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmodulator 0.5;\rcarrier 1000.;\rmod.depth 30.;\r"
 				}
 
@@ -303,7 +294,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1169.0, 762.0, 89.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : ";\rmodulator 0.;\rcarrier 1000.;\rmod.depth 0.5;\r"
 				}
 
@@ -327,7 +317,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 848.0, 994.0, 110.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "we have HARMONY!"
 				}
 
@@ -341,7 +330,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 965.0, 965.0, 92.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmodulator 200.;\rcarrier 1000.;\r"
 				}
 
@@ -354,7 +342,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 848.0, 924.0, 110.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "ƒm =~ 20-25 hz\nsidebands appear"
 				}
 
@@ -368,7 +355,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 965.0, 895.0, 85.0, 62.0 ],
-					"presentation_linecount" : 3,
 					"text" : ";\rmodulator 25.;\rcarrier 1000.;\r"
 				}
 
@@ -381,7 +367,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 848.0, 855.0, 110.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "ƒm < ~20 hz\nwe get TREMOLO!"
 				}
 
@@ -395,7 +380,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 965.0, 826.0, 85.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmodulator 16.;\rcarrier 1000.;\r"
 				}
 
@@ -455,7 +439,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1309.0, 597.5, 82.0, 76.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmod.depth 0.;\rmodulator 0.;\rcarrier 0.;\r"
 				}
 
@@ -1274,17 +1257,6 @@
 			}
 , 			{
 				"box" : 				{
-					"connections" : [ 						{
-							"in" : 3,
-							"out" : 0,
-							"gain" : 1.0
-						}
-, 						{
-							"in" : 3,
-							"out" : 1,
-							"gain" : 1.0
-						}
- ],
 					"dividers" : "none",
 					"fontface" : 0,
 					"fontname" : "Arial",

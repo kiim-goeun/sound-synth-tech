@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 79.0, 1001.0, 793.0 ],
+		"rect" : [ 34.0, 87.0, 1001.0, 793.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 220.0, 400.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "comment",
@@ -212,8 +224,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -345,7 +357,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 120.166651844978318, 557.333328723907471, 74.0, 22.0 ],
+					"patching_rect" : [ 134.166651844978333, 557.333328723907471, 74.0, 22.0 ],
 					"text" : "receive~ in1"
 				}
 
@@ -439,28 +451,49 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 138.333336114883423,
+					"clipheight" : 68.666668057441711,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "bosch.256.rom.aif",
-								"filename" : "bosch.256.rom.aif",
+								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/648437__timouse__piano-loop-21.wav",
+								"filename" : "648437__timouse__piano-loop-21.wav",
 								"filekind" : "audiofile",
-								"id" : "u690003444",
-								"selection" : [ 0.252631578947368, 0.610526315789474 ],
-								"loop" : 1,
+								"id" : "u375007458",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "drumLoop.aif",
-								"filename" : "drumLoop.aif",
+								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/CTp-ord-A3-mf.aif",
+								"filename" : "CTp-ord-A3-mf.aif",
 								"filekind" : "audiofile",
-								"id" : "u460003500",
-								"loop" : 1,
+								"id" : "u166007455",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/RB.vox.sung.consonants.ki.Db4.wav",
+								"filename" : "RB.vox.sung.consonants.ki.Db4.wav",
+								"filekind" : "audiofile",
+								"id" : "u116007456",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/RB.vox.sung.vocalization.Db4.wav",
+								"filename" : "RB.vox.sung.vocalization.Db4.wav",
+								"filekind" : "audiofile",
+								"id" : "u486007457",
+								"loop" : 0,
+								"content_state" : 								{
+
 								}
 
 							}
@@ -608,6 +641,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
@@ -708,21 +748,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bosch.256.rom.aif",
-				"bootpath" : "C74:/packages/BEAP/misc",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "drumLoop.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
