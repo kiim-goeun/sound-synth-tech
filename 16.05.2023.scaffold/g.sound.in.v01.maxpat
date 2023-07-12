@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1001.0, 793.0 ],
+		"rect" : [ 757.0, 99.0, 1001.0, 793.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -451,49 +451,65 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 68.666668057441711,
+					"clipheight" : 54.733334445953368,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/648437__timouse__piano-loop-21.wav",
-								"filename" : "648437__timouse__piano-loop-21.wav",
+								"absolutepath" : "/Users/goeunkim/Desktop/for yuyoung/Reaper/example/for_instrument.example.wav",
+								"filename" : "for_instrument.example.wav",
 								"filekind" : "audiofile",
-								"id" : "u375007458",
-								"loop" : 0,
+								"id" : "u512006025",
+								"selection" : [ 0.114864864864865, 0.699324324324324 ],
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/CTp-ord-A3-mf.aif",
-								"filename" : "CTp-ord-A3-mf.aif",
+								"absolutepath" : "/Users/goeunkim/Desktop/for yuyoung/Reaper/example/for_instrument.example.2.wav",
+								"filename" : "for_instrument.example.2.wav",
 								"filekind" : "audiofile",
-								"id" : "u166007455",
-								"loop" : 0,
+								"id" : "u291006001",
+								"selection" : [ 0.108108108108108, 0.611486486486487 ],
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/RB.vox.sung.consonants.ki.Db4.wav",
-								"filename" : "RB.vox.sung.consonants.ki.Db4.wav",
+								"absolutepath" : "/Users/goeunkim/Desktop/for yuyoung/Reaper/example/for_instrument.example.3.wav",
+								"filename" : "for_instrument.example.3.wav",
 								"filekind" : "audiofile",
-								"id" : "u116007456",
-								"loop" : 0,
+								"id" : "u622005998",
+								"selection" : [ 0.054054054054054, 0.621621621621622 ],
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "/Users/goeunkim/Desktop/Max.MSP/Max_louis/sound-synth-tech/synth-tech-media/RB.vox.sung.vocalization.Db4.wav",
-								"filename" : "RB.vox.sung.vocalization.Db4.wav",
+								"absolutepath" : "/Users/goeunkim/Desktop/for yuyoung/Reaper/example/for_instrument.example.4.wav",
+								"filename" : "for_instrument.example.4.wav",
 								"filekind" : "audiofile",
-								"id" : "u486007457",
-								"loop" : 0,
+								"id" : "u815005999",
+								"selection" : [ 0.101351351351351, 0.672297297297297 ],
+								"loop" : 1,
 								"content_state" : 								{
+									"loop" : 1
+								}
 
+							}
+, 							{
+								"absolutepath" : "/Users/goeunkim/Desktop/for yuyoung/Reaper/example/for_instrument.example.5.wav",
+								"filename" : "for_instrument.example.5.wav",
+								"filekind" : "audiofile",
+								"id" : "u242006000",
+								"selection" : [ 0.054054054054054, 0.75 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
 								}
 
 							}
@@ -511,7 +527,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 276.666651988029457, 344.66665780544281, 351.333339333534241, 278.666672229766846 ],
+					"patching_rect" : [ 287.249985933303833, 348.000010371208191, 351.333339333534241, 278.666672229766846 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -611,7 +627,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 2 ],
-					"midpoints" : [ 286.166651988029457, 624.0, 15.999999403953552, 624.0, 15.999999403953552, 297.0, 382.166654849052406, 297.0 ],
+					"midpoints" : [ 296.749985933303833, 624.0, 15.999999403953552, 624.0, 15.999999403953552, 297.0, 382.166654849052406, 297.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
